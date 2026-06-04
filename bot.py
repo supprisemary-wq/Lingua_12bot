@@ -1,7 +1,7 @@
 import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
-from deep-translator import GoogleTranslator
+from deep_translator import GoogleTranslator
 
 # Retrieve token from Render Environment Settings
 TOKEN = os.getenv("TOKEN", "YOUR_BOT_TOKEN")
